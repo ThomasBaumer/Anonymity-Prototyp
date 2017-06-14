@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Anonymity.exe" version="1.0.0.0" publicKeyToken="afa769b2692e0f1b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="AnonymityBA.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Anonymity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Anonymity.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Ebene der Windows-Benutzerkontensteuerung ändern möchten, ersetzen Sie den 
+          Knoten "requestedExecutionLevel" durch eine der folgenden Angaben.
+
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+         Wenn Sie Datei- und Registrierungsvirtualisierung für Abwärtskompatibilität 
+         verwenden möchten, löschen Sie den Knoten "requestedExecutionLevel".
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Anonymity.exe" size="868256">
+      <assemblyIdentity name="Anonymity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p3qPqEELT4WxLg898+60CsuJ5azAAYmAZuLnMoyTWAE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Anonymity.exe.config" size="2878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Svlop9NvARI62jataa3x8JA76mMIhc49VrxVcmm+e9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AnonymityBA.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QI3efWvv+p8hyyGx3+V3uZaNeKva18uA9b4QNyHAl5o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=THOMAS\Tom" issuerKeyHash="a3d0cb242acfb4d7b0e494f15725d9aecd502651" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ssJFzxaOfWVBGIGRDGbRsB42OxmpojZUlWTdMoC83EQ=</DigestValue></Reference></SignedInfo><SignatureValue>J0AzokQkyieSipVqIvN3mBXH93Lm7cT49pCPteQqTogOLUu+NhJacpNTjMKfFef/IZQHiBEbdtWV9QxR0Ukeb8HSl0Jv0oMb+AOf4UAmVcEErSrF0Q5iPGEzJ6/eIUyYAkz95JbNE46A6yVpNLS3xQSC1Arjn5MbVWIEh7fJrqo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vLMaa8zM2SgSByj0jhHuVFoRbChzEVfp9B1jNGVFKpXV9HWmoRtdBnnSLxWJp5CH8cEMYwzAnS64nDu8r0W31hIZcjlhggj4RHq222jP0RfimKXc/G988Az4cfVFdUalc3KiT+H/Xg3aaHJAiYbwcN9zXWJsX7PvCXbp+dTAdlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="44dcbc8032dd64955436a2a9193b361eb0d1660c91811841657d8e16cf45c2b2" Description="" Url=""><as:assemblyIdentity name="Anonymity.exe" version="1.0.0.0" publicKeyToken="afa769b2692e0f1b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THOMAS\Tom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K+mqV8GmJNvrChph/jnksrBgGtudC4mozNyZYihY/I8=</DigestValue></Reference></SignedInfo><SignatureValue>g4OS7iDfJWRLMkh2oeFBUjKld3jQvgEMLyxYyiFM66wGgnFQCqVDkIwYtuWvWTDPBoZsGxBbsvDhLd459AGgznNHu9E2PD3Lo2L7fC0xc6hs1Q1F2C4hmB8JcFHwsQj3ItjuV8fBZ16SBalGv1yUD18grhdzLgxL5+LURQXKv3w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vLMaa8zM2SgSByj0jhHuVFoRbChzEVfp9B1jNGVFKpXV9HWmoRtdBnnSLxWJp5CH8cEMYwzAnS64nDu8r0W31hIZcjlhggj4RHq222jP0RfimKXc/G988Az4cfVFdUalc3KiT+H/Xg3aaHJAiYbwcN9zXWJsX7PvCXbp+dTAdlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQETuwgiMIBYpDv1VfhuoWRTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVABIAE8ATQBBAFMAXABUAG8AbTAeFw0xNzA1MTMxODM2MjRaFw0xODA1MTQwMDM2MjRaMB8xHTAbBgNVBAMeFABUAEgATwBNAEEAUwBcAFQAbwBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8sxprzMzZKBIHKPSOEe5UWhFsKHMRV+n0HWM0ZUUqldX0daahG10GedIvFYmnkIfxwQxjDMCdLricO7yvRbfWEhlyOWGCCPhEerbbaM/RF+KYpdz8b3zwDPhx9UV1RqVzcqJP4f9eDdpockCJhvBw33NdYmxfs+8Jdun51MB2WQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALR3GN+Z7hXkjJeqfTAf5sJ7vYKfr0kxq5q3UUMjSwJOgQtl/Z692tv3ip6fNpJ3T7PlKDarLbVEi21T2e0vsftdtxlXdPHtC5Os20vH3Gvnzgz7I4/otRgCbdfdZducZqOXwweX85mRoyJfg92l7X5NOnSIc8ft+3okrY/CQn56</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

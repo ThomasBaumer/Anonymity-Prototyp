@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Anonymity.Policy.UserSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="Anonymity.Settings.UserSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Anonymity.Policy.UserSettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <userSettings>
+        <Anonymity.Policy.UserSettings>
+            <setting name="LogicName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="policy" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="min_n" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="runPermission" serializeAs="String">
+                <value>True</value>
+            </setting>
+        </Anonymity.Policy.UserSettings>
+        <Anonymity.Settings.UserSettings>
+            <setting name="LogicName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setting" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="min_n" serializeAs="String">
+                <value>2</value>
+            </setting>
+        </Anonymity.Settings.UserSettings>
+    </userSettings>
+    <applicationSettings>
+        <Anonymity.Policy.UserSettings>
+            <setting name="SuppressingVal" serializeAs="String">
+                <value>*</value>
+            </setting>
+            <setting name="IP_Listener" serializeAs="String">
+                <value>127.0.0.1</value>
+            </setting>
+            <setting name="port_Listener" serializeAs="String">
+                <value>4444</value>
+            </setting>
+        </Anonymity.Policy.UserSettings>
+    </applicationSettings>
+</configuration>
